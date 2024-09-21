@@ -9,7 +9,7 @@ export default function Home() {
         <span className="text-yellow-400 font-georgia border-b-2 border-yellow-400">
           Uneeza Ismail
         </span>
-        , <br />
+        , <br /> 
         This is my first project using Next.js, featuring a simple "Hello World"
         <br />
         page with custom styling. It helped me explore Next.js fundamentals
