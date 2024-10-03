@@ -10,7 +10,7 @@ const Card = (props: Tprops) => {
   return (
     <div>
       <div className="border border-gray-300 rounded-3xl bg-white shadow-2xl xl:w-96 lg:w-80 sm:w-80 w-64 transform hover:scale-105 transition-transform duration-300">
-        <h2 className="flex justify-center sm:text-2xl text-lg p-2 font-bold bg-gray-900 text-white w-auto sm:mb-4 mb-2 rounded-t-3xl">
+        <h2 className="flex justify-center sm:text-2xl text-lg p-2 font-bold bg-gray-900 text-white w-auto sm:mb-4 mb-2 rounded-t-3xl ">
           UNIVERSITY OF OXFORD
         </h2>
         <div className="flex justify-center">
