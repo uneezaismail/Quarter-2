@@ -3,7 +3,7 @@ import Card from "./components/cards/page";
 export default function Home() {
   return (
     <div className="flex justify-center min-h-screen bg-orange-100">
-      <div className="grid xl:grid-cols-3 grid-cols-1 gap-16 p-20">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-16 xl:p-20 md:p-15 py-8">
         <Card
           name="Haya"
           id={1001}
