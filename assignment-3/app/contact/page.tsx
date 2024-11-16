@@ -9,7 +9,7 @@ export default function Contact() {
       <Navbar />
       <main className="flex-grow container mx-auto px-4 py-10">
         <h1 className="text-5xl font-bold mb-4">Get in Touch</h1>
-        <p className="text-lg text-gray-700 text-2xl">
+        <p className="text-lg text-gray-700 xl:text-2xl">
           This page features a simple contact form that demonstrates how to
           capture user input and handle form submissions. The form includes
           fields for your name, email, and message.
