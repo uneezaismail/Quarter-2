@@ -6,47 +6,47 @@ let books: Book[] = [
     id: 1,
     title: "Atomic Habits",
     author: "James Clear",
-    image: "/comic-1.jpg",
+    image: "/atomic-habit.jpg",
   },
   {
     id: 2,
     title: "The Power of Now",
     author: "Eckhart Tolle",
-    image: "/comic-1.jpg",
+    image: "/the-power.jpg",
   },
   {
     id: 3,
     title: "Think and Grow Rich",
     author: "Napoleon Hill",
-    image: "/images/think-and-grow-rich.jpg",
+    image: "/think-and-grow-rich.webp",
   },
   {
     id: 4,
     title: "Deep Work",
     author: "Cal Newport",
-    image: "/images/deep-work.jpg",
+    image: "/deep-work.jpg",
   },
   {
     id: 5,
-    title: "Sapiens: A Brief History of Humankind",
-    author: "Yuval Noah Harari",
-    image: "/images/sapiens.jpg",
+    title: "The Gifts of Imperfection",
+    author: "Brené Brown",
+    image: "/gifts-of-imperfection.jpg",
   },
   {
     id: 6,
-    title: "The 7 Habits of Highly Effective People",
-    author: "Stephen R. Covey",
-    image: "/images/7-habits.jpg",
+    title: "Rich Dad Poor Dad",
+    author: "Robert Kiyosaki",
+    image: "/rich-dad.jpg",
   },
 ];
 
-export async function GET(req: NextRequest) {
+export async function GET() {
   return NextResponse.json(books, { status: 200 });
 }
 
 export async function POST(req: NextRequest) {
   const newBook: Book = await req.json();
-  newBook.id = Date.now(); // Generate unique ID
+  newBook.id = Date.now(); 
   books.push(newBook);
   return NextResponse.json(newBook, { status: 201 });
 }

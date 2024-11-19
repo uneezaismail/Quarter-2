@@ -1,10 +1,10 @@
+// Home.tsx
 'use client'
 import React, { useState, useEffect } from 'react';
 import { Book } from './types/book';
-import BooksList from './components/booklist/page';
-import EditBookForm from './components/editbooks/page';
-import AddBookForm from './components/addbook/page';
-import Hero from './components/hero/page';
+import EditBookForm from './components/editbooks';
+import AddBookForm from './components/addbook';
+import BooksList from './components/booklist';
 
 const Home: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
@@ -39,19 +39,18 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main>
-      <Hero/>
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl lg:text-4xl font-bold text-center mb-6 text-red-600 my-4">Book Collection</h1>
+    <div className="min-h-screen p-6 mx-auto">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6 font-serif bg-blue-950 text-white p-4">Book Collection</h1>
 
       {!editingBook && !isAdding && (
         <>
+        <div className='w-full flex justify-center items-center'>
           <button
             onClick={() => setIsAdding(true)}
-            className="bg-red-600 hover:bg-black text-white px-4 py-2 rounded mb-4"
+            className=" bg-red-600 hover:bg-black text-white px-4 py-2 rounded mb-4"
           >
             Add New Book
-          </button>
+          </button></div>
           <BooksList
             books={books}
             onDelete={handleDeleteBook}
@@ -75,7 +74,6 @@ const Home: React.FC = () => {
         />
       )}
     </div>
-    </main>
   );
 };
 
