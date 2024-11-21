@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col md:flex-row items-center justify-evenly md:justify-between bg-[linear-gradient(-135deg,_#1A1A1A,_#0DCAF0)] h-screen md:h-[650px] px-4 md:px-10 lg:px-20">
+    <main className="flex flex-col md:flex-row items-center justify-evenly md:justify-between bg-[linear-gradient(-135deg,_#1A1A1A,_#0DCAF0)] h-[650px] px-4 md:px-10 lg:px-20">
       <div className="md:hidden px-6 flex items-center mr-7 " >
         <Image
           src={"/download.png"}
