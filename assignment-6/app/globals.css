@@ -72,6 +72,6 @@ body {
 }
 
 
-/* .main{
-  background-color: linear-gradient(-135deg,_#0DCAF0,_#1A1A1A);
-} */
+html {
+  scroll-behavior: smooth;
+}

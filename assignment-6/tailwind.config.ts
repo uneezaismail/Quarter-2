@@ -16,6 +16,7 @@ export default {
 			hoverSkyBlue: '#0ba5c7',
 			primaryColor: '#0DCAF0', 
 			secondaryColor: '#1A1A1A', 
+			aboutColor:"#212529",
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
