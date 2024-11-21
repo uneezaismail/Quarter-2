@@ -17,7 +17,6 @@ const closeDropdown = () => {
   setIsDropdownOpen(false);
 };
 
-const navLinks = ["Home","About", "Projects", "Skills", "contact"]
 
   return (
     <header className='relative bg-black w-full flex py-2 px-3 lg:p-3 lg:px-16 md:p-5 md:px-6 text-white justify-between items-center'>
