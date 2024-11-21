@@ -16,10 +16,10 @@ const About = () => {
           ABOUT ME
         </h3>
         <h2 className='font-bold text-4xl lg:text-5xl xl:text-6xl mt-10 mb-6 md:mt-1 md:mb-4 font-serif text-lavender '>A Glimpse Into My Journey</h2>
-    <p className='xl:text-2xl sm:text-xl'>I&apos;m a passionate and driven developer with a keen eye for design and a love for crafting innovative digital solutions. With a strong foundation in web development and an ever-growing skillset, I specialize in building responsive, user-friendly websites and applications. Whether it's creating seamless user experiences or solving complex problems, I thrive on turning ideas into reality.
+    <p className='xl:text-2xl sm:text-xl'>I&apos;m a passionate and driven developer with a keen eye for design and a love for crafting innovative digital solutions. With a strong foundation in web development and an ever-growing skillset, I specialize in building responsive, user-friendly websites and applications. Whether it&apos;s creating seamless user experiences or solving complex problems, I thrive on turning ideas into reality.
 </p><br />
 <p className='xl:text-2xl sm:text-xl'>
-When I'm not coding, you'll find me exploring new technologies, learning creative design techniques, or diving into challenges that inspire growth. Let's connect and bring your vision to life!</p>
+When I&apos;m not coding, you&apos;ll find me exploring new technologies, learning creative design techniques, or diving into challenges that inspire growth. Let&apos;s connect and bring your vision to life!</p>
       </div>
     </div>
   </main>
