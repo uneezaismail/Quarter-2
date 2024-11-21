@@ -19,10 +19,10 @@ const closeDropdown = () => {
 
 
   return (
-    <header className='relative bg-black w-full flex py-2 px-3 lg:p-3 lg:px-16 md:p-5 md:px-6 text-white justify-between items-center'>
+    <header className='relative bg-black w-full flex py-3 px-3 lg:p-3 lg:px-16 md:p-5 md:px-6 text-white justify-between items-center'>
         <div className='flex items-center text-2xl md:text-3xl lg:text-4xl font-serif'><span className='md:hidden mr-2 '>
           <FaBars onClick={ToggleDropdown}/></span> 
-          <span className='font-bold font-cookie mr-2 text-4xl md:text-5xl lg:text-7xl text-skyBlue'>Uneeza</span> Ismail</div>
+          <span className='font-bold font-cookie mr-2 text-5xl md:text-6xl lg:text-7xl text-skyBlue'>Uneeza</span> Ismail</div>
     <ul className='text-xl xl:text-2xl md:text-md hidden md:w-[50%] xl:w-[40%]  md:flex justify-between font-semibold'>
         <li className='hover:text-skyBlue hover:border-b-2 hover:border-skyBlue'>Home</li>
     <li className='hover:text-skyBlue hover:border-b-2 hover:border-skyBlue'>About</li>
