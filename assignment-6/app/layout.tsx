@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Roboto, Cookie, Parisienne, Tangerine } from 'next/font/google';
+import Header from "./components/header/page";
+import Footer from "./components/footer/page";
 
 const roboto = Roboto({
   weight: '700',
   subsets: ['latin'],
   variable: '--font-roboto',
 });
+
 const cookie = Cookie({
   weight: '400',
   subsets: ['latin'],
@@ -49,8 +52,9 @@ export default function RootLayout({
     <html lang="en">
       <body
    className={`${geistSans.variable} ${geistMono.variable} ${cookie.variable} ${roboto.variable} ${parisienne.variable} ${tangerine.variable} antialiased`}
-      >
+      > <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

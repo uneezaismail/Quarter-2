@@ -17,6 +17,7 @@ export default {
 			primaryColor: '#0DCAF0', 
 			secondaryColor: '#1A1A1A', 
 			aboutColor:"#212529",
+			Darktale: "#269DB5",
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

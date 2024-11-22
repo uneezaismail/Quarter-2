@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -29,12 +30,16 @@ const Hero = () => {
         </div>
         <div className="xl:w-[60%] flex justify-evenly py-6 px-2 sm:py-8 ">
           {" "}
+          <Link href="#projectSection">
           <Button className=" font-semibold bg-white text-blue-950  px-3 py-5 md:px-4 md:py-6 lg:px-4 lg:py-6 text-md lg:text-xl sm:text-xl  shadow-md shadow-sky-200 hover:bg-black  hover:text-white rounded-xl">
             View Projects
-          </Button>{" "}
+          </Button>
+          </Link>{" "}
+          <Link href={"https://www.linkedin.com/in/uneeza-ismail-03a7852b4"}>
           <Button className=" font-semibold bg-transparent border-2 border-white  px-4  py-5 md:px-4 md:py-6 lg:px-4 lg:py-6 text-md lg:text-xl sm:text-xl rounded-xl hover:shadow-md shadow-sky-300 hover:bg-hoverSkyBlue ">
             Connect
           </Button>
+          </Link>
         </div>
       </div>
       <div className='hidden md:block md:w-[45%] className="object-cover"'>
