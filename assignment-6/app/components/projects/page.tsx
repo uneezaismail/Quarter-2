@@ -12,7 +12,7 @@ const Project = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 xl:gap-4 w-[95%] lg:w-[98%] xl:w-[95%]">
   {/* Coffee Blog */}
   <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
-    <Image  src="/coffee.png"
+    <Image  src="/coffee.PNG"
       alt="Coffee Blog"
       width={200}
       height={200}
@@ -26,7 +26,7 @@ const Project = () => {
   {/* Interior Design */}
   <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
     <Image
-      src="/interior.png"
+      src="/interior.PNG"
       alt="Interior Design"
       width={200}
       height={200}
@@ -41,7 +41,7 @@ const Project = () => {
   {/* Resume Builder */}
   <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
     <Image
-      src="/resume.png"
+      src="/resume.PNG"
       alt="Resume Builder"
       width={200}
       height={200}
