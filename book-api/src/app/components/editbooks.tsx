@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 import { Book } from "@/app/types/book";
 import React, { useState } from "react";
 
@@ -33,30 +32,26 @@ const EditBookForm: React.FC<EditBookFormProps> = ({
       className="max-w-lg mx-auto mb-6 p-4 bg-white shadow rounded"
     >
       <h2 className="text-xl font-bold mb-4">Edit Book</h2>
-      
+
       {/* Title Input */}
       <div className="mb-4">
         <label className="block font-medium">Title</label>
         <input
           type="text"
           value={formData.title || ""}
-          onChange={(e) =>
-            setFormData({ ...formData, title: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, title: e.target.value })}
           className="w-full p-2 border rounded"
           required
         />
       </div>
-      
+
       {/* Author Input */}
       <div className="mb-4">
         <label className="block font-medium">Author</label>
         <input
           type="text"
           value={formData.author || ""}
-          onChange={(e) =>
-            setFormData({ ...formData, author: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, author: e.target.value })}
           className="w-full p-2 border rounded"
           required
         />
@@ -68,9 +63,7 @@ const EditBookForm: React.FC<EditBookFormProps> = ({
         <input
           type="text"
           value={formData.image || ""}
-          onChange={(e) =>
-            setFormData({ ...formData, image: e.target.value })
-          }
+          onChange={(e) => setFormData({ ...formData, image: e.target.value })}
           className="w-full p-2 border rounded"
           required
         />
