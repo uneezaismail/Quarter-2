@@ -3,15 +3,15 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <section id='projectSection' className='flex flex-col items-center bg-gradient-to-b from-[#269DB5] to-[#1A1A1A] py-6 md:py-10 xl:py-24 h-fit'>
-        <div className='flex fex-col items-center justify-center'><h3 className='w-fit text-3xl  lg:text-3xl xl:text-4xl items-center  border-b-2 border-b-primaryColor font-bold text-primaryColor'>
+    <section id='projectSection' className='flex flex-col items-center bg-gradient-to-b from-[#269DB5] to-[#1A1A1A] py-16 md:py-10 xl:py-24 h-fit'>
+        <div className='flex fex-col items-center justify-center'><h3 className='w-fit text-3xl  lg:text-3xl xl:text-4xl items-center  border-b-2 border-b-black font-bold text-black'>
         MY PROJECTS
       </h3>
       </div>
       <p className='text-gray-200 text-xl md:text-2xl lg:w-[70%] px-4 sm:w-[80%] my-12'>Explore my latest projects, where I focus on creating clean, functional, and user-friendly designs. I&apos;m currently working on some exciting new projects that will be added soon—stay tuned for updates!</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 xl:gap-4 w-[95%] lg:w-[98%] xl:w-[95%]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-2 xl:gap-4 w-[95%] lg:w-[98%] xl:w-[95%]">
   {/* Coffee Blog */}
-  <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
+  <div className="hover:transition hover:scale-105 rounded-md relative group w-[330px] h-[250px] xl:w-[400px] xl:h-[300px] mx-auto">
     <Image  src="/coffee.PNG"
       alt="Coffee Blog"
       width={200}
@@ -24,7 +24,7 @@ const Project = () => {
   </div>
 
   {/* Interior Design */}
-  <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
+  <div className="hover:transition hover:scale-105 relative group w-[330px] h-[250px] xl:w-[400px] xl:h-[300px] mx-auto">
     <Image
       src="/interior.PNG"
       alt="Interior Design"
@@ -39,7 +39,7 @@ const Project = () => {
   </div>
 
   {/* Resume Builder */}
-  <div className="relative group w-[370px] h-[250px] xl:w-[450px] xl:h-[300px] mx-auto">
+  <div className="hover:transition hover:scale-105 relative group w-[330px] h-[250px] xl:w-[400px] xl:h-[300px] mx-auto">
     <Image
       src="/resume.PNG"
       alt="Resume Builder"

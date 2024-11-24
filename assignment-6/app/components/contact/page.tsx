@@ -1,39 +1,10 @@
-// import { Input } from '@/components/ui/input'
-// import { Textarea } from '@/components/ui/textarea'
-// import Link from 'next/link'
-// import React from 'react'
-// import { FaGithub, FaLinkedin } from 'react-icons/fa6'
-// import { IoIosMail } from 'react-icons/io'
-
-// const Contact = () => {
-//   return (
-//     <section>
-//         <ul>
-//             <li className='bg-primaryColor flex flex-row items-center text-2xl'><IoIosMail /> <p>Uneeza Ismail</p></li>
-//             <li><FaGithub/> <Link href={"https://www.linkedin.com/in/uneeza-ismail-03a7852b4"}>Uneeza Ismail</Link></li>
-//             <li><FaLinkedin/> <Link href={"https://www.linkedin.com/in/uneeza-ismail-03a7852b4"}>https://www.linkedin.com/in/uneeza-ismail-03a7852b4</Link></li>
-//             </ul>
-        
-        
-//         <div>
-//             <Input/>
-//             <Input/>
-//               <Textarea/>
-//         </div>
-//     </section>
-//   )
-// }
-
-// export default Contact
-
-
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import React from 'react';
 
 const ContactMe  = () => {
   return (
-    <section id="contact" className="py-6 md:py-10 xl:py-16 xl:px-10 bg-[#212529]">
+    <section id="contact" className="py-12 md:py-10 xl:py-16 xl:px-10 bg-[#212529]">
       <div className=" max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="justify-center flex items-center w-fit text-3xl lg:text-3xl xl:text-4xl  border-b-2 border-b-primaryColor font-bold text-primaryColor mb-10 mx-auto">Contact Me</h2>
         <div className="bg-black rounded-lg p-6 sm:p-8 lg:p-10">
