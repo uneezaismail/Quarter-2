@@ -6,7 +6,7 @@ import React from 'react'
 const Header = async () => {
   const { userId } = await auth();
   return (
-    <header className='w-full flex items-center justify-between px-4 lg:px-16 p-4'>
+    <header className='w-full bg-white flex items-center justify-between px-4 lg:px-16 p-4'>
         <div><h2 className='text-emerald-950 text-2xl font-bold'>ClerkGuide</h2></div>
 
         <nav className="flex justify-center items-center space-x-4 md:space-x-8">
