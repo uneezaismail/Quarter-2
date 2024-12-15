@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image';
 import React from 'react';
 
 
@@ -56,7 +55,7 @@ const Hero = () => {
       <div className="p-6 bg-white text-black rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-2">4. Add Sign-In/Sign-Up Pages</h2>
         <p className="text-gray-600">
-          Create custom sign-in and sign-up pages, or use Clerk's pre-built components:
+          Create custom sign-in and sign-up pages, or use Clerk&apos;s pre-built components:
         </p>
         <code className="block bg-gray-900 text-gray-200 rounded-md p-4 mt-4">
           {`import { SignIn } from "@clerk/nextjs";\n\nexport default function SignInPage() {\n  return <SignIn />;\n}`}
